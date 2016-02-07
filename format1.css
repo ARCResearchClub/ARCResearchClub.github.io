@@ -86,7 +86,7 @@ footer
     text-align: center;
     padding: 5%;
     height: 12%;
-    bottom: auto;
+    bottom: 0;
 }
 
 
@@ -96,7 +96,7 @@ footer
 {
     z-index: 1;
     /*background: black;*/
-    position: relative;
+    /*position: relative;*/
 }
 
 .slant:before

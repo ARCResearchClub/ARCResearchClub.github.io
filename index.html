@@ -8,6 +8,22 @@
   
   <link rel="stylesheet" href="format1.css">
 
+  <!-- For Image Slider -->
+  <script type="text/javascript">
+    <!--
+    var image1=new Image()
+    image1.src="Pics/OtherPics/d334c9_b31738de02464e3cae583e73d81174a7.jpg"
+    var image2=new Image()
+    image2.src="Pics/MeetingPics/MeetingPIc.png"
+    var image3=new Image()
+    image3.src="Pics/OtherPics/d334c9_78b9b5ce63b145358d383d9eb11e02af.jpg"
+    var image3=new Image()
+    image3.src="Pics/OtherPics/d334c9_7e08317da8fd4b6caf748501bb593380.jpg"
+
+    d334c9_7e08317da8fd4b6caf748501bb593380.jpg
+    //-->
+  </script>
+
   <!-- icon! -->
   <link rel="icon" href="Magnifying_glass_icon.svg.png" type="image/x-icon">
   
@@ -65,11 +81,55 @@
 <!--  Content-->
     <h1 class="title"> ARC Research Club </h1>
 
-    <div style="width: 100%; background-color: white; padding: 10%;">
+<!--     <div style="width: 100%; background-color: white; padding: 10%;">
       <p id="round"> What we Do:</p>
+    </div> -->
+
+    <div id="round" style= "width: 40%; float: left; margin: 2%">
+      <h2> What we Do:</h2>
+      <p>
+        No ridens probatus per, ea vis probo tempor. Est et postea accusata, rebum dicam oportere eum ut. Pri no hinc vidit, nominavi contentiones ne pri Ad quod erat definitiones nec. Cum malorum facilisis persecuti ut, ex vis lobortis imperdiet, harum quodsi pri at.
+      </p>
+      <p>
+        Vide viris posidonium pri no, quo te iuvaret facilisi sapientem. Mutat mandamus sit at, id wisi commune reprimique usu. Vivendum corrumpit pro te, sea ei tation soleat probatus. Eu qui numquam aliquando philosophia, vim in diam qualisque, eu per oportere suscipiantur. Eu sit soleat alienum consectetuer. Maiorum praesent sit ad.
+      </p>
+      <p>
+        An sonet noster per, te mea wisi euismod alienum. Cu vidit justo mnesarchum duo, ad cum tritani feugait democritum. Cu habeo delectus accommodare usu, mel te omittam scriptorem. Mea cu sensibus hendrerit, erant blandit singulis ius no.
+      </p>
+      <p>
+        Pri unum ponderum perfecto id. Semper intellegebat at vim, sed quem errem ne, pro no audiam option. Ei eam imperdiet comprehensam, veniam commodo no usu. Eam diam elaboraret te. Tation splendide incorrupte eos ea. Nam ex vocent consulatu conceptam. Cum saepe verterem facilisi ex, eum ei ferri magna idque, doming numquam eos ei.
+      </p>
+      <p>
+        Quot postea duo eu, sea justo zril percipit et. Oblique nusquam pri at, cu vim aeque integre suavitate. Pri falli saepe elaboraret eu. Dolores interpretaris vix id, mei ad quaestio petentium.
+      </p>
+
     </div>
 
+    <div style="margin: 3%; margin-left:0; width: 44%; float: right">
+        <img src="Pics/OtherPics/d334c9_b31738de02464e3cae583e73d81174a7.jpg" name="slide" width="550" height="550">
+    </div>
+
+
+    <script type="text/javascript">
+    <!--
+      var step=1
+      function slideit()
+      {
+        document.images.slide.src=eval("image"+step+".src")
+        if(step<4)
+          step++
+        else
+          step=1
+        setTimeout("slideit()",3500)
+      }
+
+      slideit()
+    //-->
+    </script>
     
+
+
+
 
 
     <p style="margin-bottom: 200px"> </p>   <!-- padding to leave space between content and footer -->
